@@ -14,7 +14,7 @@ function get_gpt($msg, $id)
     // #gpt-3.5-turbo gpt-4-poe gpt-4-32k-poe
 
 	$url = 'https://chimeragpt.adventblocks.cc/api/v1/chat/completions';
-	$apikey = 'cvjf5U5rcmq9F508p5Qr4ujeBKCp_tb6ZEtX3h6bLzI';
+	$apikey = 'cvjf5U5rcmq9F508p5';
 	$data = array(
 		"model" => "gpt-4",
 		"messages" => array(
